@@ -2,11 +2,18 @@
 
 This template should help get you started developing with Tauri and Astro.
 
-> If you're looking the size-optimized version of this template check out the `opt` branch!
+## Getting Started
 
-![App Screenshot](./Screenshot-light.png#gh-light-mode-only)
-![App Screenshot](./Screenshot-dark.png#gh-dark-mode-only)
+Run the following command to run the app in development mode:
 
-## Recommended IDE Setup
+```bash
+cargo tauri dev
+```
 
-[VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+## Building
+
+To build for your current platform:
+
+```bash
+cargo tauri build
+```
